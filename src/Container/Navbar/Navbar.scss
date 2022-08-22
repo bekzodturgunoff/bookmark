@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+
+    @media screen and (max-width:750px) {
+        
+        justify-content: space-between;   
+   }
+}
+
+.hamburger-links{
+    display: none;
+    @media screen and (max-width:750px) {
+        display: block;   
+   }
+}
+
+.links {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ @media screen and (max-width:750px) {
+     display: none;   
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+button{
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: var(--primary-soft-red);
+    color: #fff;
+}
+}
