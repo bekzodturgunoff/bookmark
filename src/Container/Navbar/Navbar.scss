@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem;
 
@@ -35,15 +35,30 @@ ul{
 
 a{
     text-decoration: none;
-    color: #000;
+    color: var(--neutral-dark-blue);
+    transition: 0.2s ease-in-out;
+    
+    &:hover{
+        color: var(--primary-soft-red);
+    }
 }
 
 button{
-    border: none;
+    border: 1px solid var(--primary-soft-red);
     width: 10rem;
     height: 3rem;
     border-radius: 8px;
     background-color: var(--primary-soft-red);
     color: #fff;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    &:hover{
+        border: 1px solid var(--primary-soft-red);
+        background-color: #fff;
+        color: var(--neutral-dark-blue);
+    }
 }
 }

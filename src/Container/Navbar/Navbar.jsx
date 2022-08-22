@@ -16,13 +16,12 @@ function Navbar() {
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Contact</a></li>
-            <button>Clikc</button>
+            <button>Login</button>
 
             </ul>
 
         </div>
         
-
     </div>
 </div>
     )
