@@ -1,0 +1,42 @@
+.features-tabs{
+display: flex;
+justify-content: center;
+width:fit-content;
+margin: auto;
+gap: 2rem ;
+
+h3{
+border-bottom: 1px solid #000;
+padding-bottom: 1rem;
+&:active{
+border-bottom: 1px solid var(--primary-soft-red);
+}
+&:focus{
+    border-bottom: 1px solid var(--primary-soft-red);
+    }
+}
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.tab-one-container,.tab-two-container, .tab-three-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tab-one, .tab-two, .tab-three{
+    position: relative;
+}
+
