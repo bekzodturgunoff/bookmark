@@ -6,8 +6,8 @@ function Features() {
   const [activeTab, setActiveTab] = React.useState(1);
 
   return (
-    <div class="tabs-container">
-      <div class="header">
+    <div className="tabs-container">
+      <div className="header">
         <h1>Features</h1>
         <p>
           Our aim is to make it quick and easy for you to access your favourite websites. Your
@@ -27,8 +27,8 @@ function Features() {
       </ul>
       {activeTab === 1 ? (
         <div className="feature-tab">
-          <img src={Images.featuresTabOne} alt="" />
-          <div>
+          <img src={Images.featuresTabOne} alt="tab-image-one"/>
+          <div className="feature-tab-text">
             <h2>Bookmark in one click</h2>
             <p>
               Orgonize your bookmarks however you like. Our simple drag-and-drop interfacce gives
@@ -40,8 +40,8 @@ function Features() {
       ) : null}
       {activeTab === 2 ? (
         <div className="feature-tab">
-          <img src={Images.featuresTabTwo} alt="" />
-          <div>
+          <img src={Images.featuresTabTwo} alt="tab-image-two" />
+          <div className="feature-tab-text">
             <h2>Intelligent Search</h2>
             <p>
               Our powerful search feature will help you find saved ites in no time at all. No need
@@ -54,7 +54,7 @@ function Features() {
       {activeTab === 3 ? (
         <div className="feature-tab">
           <img src={Images.featuresTabThree} alt="" />
-          <div>
+          <div className="feature-tab-text">
             <h2>Share your bookmarks</h2>
             <p>
               Easily share your bookmarks and collections with others. Create a shareable link that

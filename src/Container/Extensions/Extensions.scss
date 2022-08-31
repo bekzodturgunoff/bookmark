@@ -1,0 +1,42 @@
+.extensions-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.extensions{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.chrome, .firefox , .opera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.oper-img img, .chrome-img, .firefox-img{
+    width: 100%; 
+}
+
+.chrome img, .firefox img, .opera img {
+    width: 10rem;
+    width: fit-content;
+}
+
+.firefox{
+    margin-top: 5rem;
+}
+
+.opera{
+    margin-top: 10rem;
+}
